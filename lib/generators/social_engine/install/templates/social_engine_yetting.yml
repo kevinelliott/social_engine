@@ -66,7 +66,27 @@ defaults: &defaults
     date: "%m/%d/%Y at %H:%M"
     order: "DESC"
     display_limit: false
-    
+
+  review_form:
+    name:
+      label: Name
+      required: true
+    email:
+      label: Email
+      required: true
+    website:
+      label: Website
+      required: false
+    comment:
+      label: Comment
+      button_text: Add Comment
+
+  review_list:
+    show_posted_by: true
+    date: "%m/%d/%Y at %H:%M"
+    order: "DESC"
+    display_limit: false
+  
   favorites_widget:
     remove_text: "Remove from favorites"
     add_text: "Add to favorites"

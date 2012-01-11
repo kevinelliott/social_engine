@@ -9,13 +9,22 @@
 /** RATING CLASSES **/
 .se-rating-form{}
 .se-rating-value-text{}
-  
+
+/** REVIEW CLASSES **/
+.se-review{}
+.se-review-body{}
+.se-review-info{}
+.se-review-posted-by{}
+.se-review-date{}
+.se-review-value-text{}
+.se-reviews-list{}
+
 /** VOTE CLASSES **/
 .se-vote-widget{}
 .se-vote-score{}
 .se-vote-up{}
 .se-vote-down{}
-  
+
 /** REPUTATION ACTION IDs **/
 #se-reputation-action-form{}
 #se-edit-reputation-action{}
@@ -23,4 +32,3 @@
 #se-new-reputation-action-link{}
 #se-new-reputation-action{}
 #se-reputation-action-source-list{}
-  

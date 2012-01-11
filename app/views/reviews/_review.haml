@@ -1,0 +1,11 @@
+.se-review{:id=>div_id(review)}
+  .se-review-body
+    =review.comment
+  -if options[:show_posted_by] or options[:date]
+    .se-review-info
+      -if options[:show_posted_by]
+        .se-review-posted-by
+          \Posted by #{review.name} 
+      -if options[:date]
+        .se-review-date
+          =review.created_at.strftime(options[:date])

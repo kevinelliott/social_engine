@@ -1,0 +1,4 @@
+.se-reviews-list
+  %ul
+    - reviews.each do |review|
+      %li= render partial: "reviews/review", locals:{review: review, options:options}

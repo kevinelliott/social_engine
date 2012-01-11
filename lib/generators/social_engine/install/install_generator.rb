@@ -21,8 +21,9 @@ module SocialEngine
       migration_template 'create_ratings_table.rb', 'db/migrate/create_ratings_table.rb'
       migration_template 'create_favorites_table.rb', 'db/migrate/create_favorites_table.rb'
       migration_template 'create_reputations_table.rb', 'db/migrate/create_reputations_table.rb'
-      migration_template 'create_reputation_actions_table.rb', 'db/migrate/create_reputation_actions_table.rb'    
-      migration_template 'create_friendings_table.rb', 'db/migrate/create_friendings_table.rb'    
+      migration_template 'create_reputation_actions_table.rb', 'db/migrate/create_reputation_actions_table.rb'
+      migration_template 'create_reviews_table.rb', 'db/migrate/create_reviews_table.rb'
+      migration_template 'create_friendings_table.rb', 'db/migrate/create_friendings_table.rb'
     end
   
     def create_static_assets

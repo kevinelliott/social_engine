@@ -4,6 +4,7 @@ module SocialEngine
       has_many :comments
       has_many :votes
       has_many :ratings
+      has_many :reviews
       has_many :favorites
       include InstanceMethods
     end

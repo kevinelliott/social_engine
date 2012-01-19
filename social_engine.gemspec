@@ -5,10 +5,10 @@
 
 Gem::Specification.new do |s|
   s.name = %q{social_engine}
-  s.version = "0.0.1"
+  s.version = "0.0.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = [%q{John McAliley}]
+  s.authors = [%q{John McAliley}, %q{Kevin Elliott}]
   s.date = %q{2011-07-01}
   s.description = %q{social_engine}
   s.email = %q{john@couponshack.com}
@@ -33,12 +33,14 @@ Gem::Specification.new do |s|
     "app/models/rating.rb",
     "app/models/reputation.rb",
     "app/models/reputation_action.rb",
+    "app/models/review.rb",
     "app/models/social_engine/commentable.rb",
     "app/models/social_engine/favoriteable.rb",
     "app/models/social_engine/friendable.rb",
     "app/models/social_engine/helpers.rb",
     "app/models/social_engine/rateable.rb",
     "app/models/social_engine/reputatable.rb",
+    "app/models/social_engine/reviewable.rb",
     "app/models/social_engine/sociable.rb",
     "app/models/social_engine/social_user.rb",
     "app/models/social_engine/voteable.rb",
@@ -56,6 +58,10 @@ Gem::Specification.new do |s|
     "app/views/reputation_actions/edit.haml",
     "app/views/reputation_actions/index.haml",
     "app/views/reputation_actions/new.haml",
+    "app/views/reviews/_form.haml",
+    "app/views/reviews/_list.haml",
+    "app/views/reviews/_rating.haml",
+    "app/views/reviews/new.haml",
     "app/views/third_party/_fb_friend_box.html.erb",
     "app/views/third_party/_fb_javascript_sdk.html.erb",
     "app/views/third_party/_fb_og_tags.html.erb",
@@ -71,6 +77,7 @@ Gem::Specification.new do |s|
     "lib/generators/social_engine/install/templates/create_ratings_table.rb",
     "lib/generators/social_engine/install/templates/create_reputation_actions_table.rb",
     "lib/generators/social_engine/install/templates/create_reputations_table.rb",
+    "lib/generators/social_engine/install/templates/create_reviews_table.rb",
     "lib/generators/social_engine/install/templates/create_votes_table.rb",
     "lib/generators/social_engine/install/templates/formtastic.css",
     "lib/generators/social_engine/install/templates/social_engine.css",

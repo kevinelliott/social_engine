@@ -4,14 +4,14 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{social_engine}
+  s.name = "social_engine"
   s.version = "0.0.3"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = [%q{John McAliley}, %q{Kevin Elliott}]
-  s.date = %q{2012-01-30}
-  s.description = %q{social_engine}
-  s.email = %q{john@couponshack.com}
+  s.authors = ["John McAliley"]
+  s.date = "2012-01-31"
+  s.description = "social_engine"
+  s.email = "john@couponshack.com"
   s.extra_rdoc_files = [
     "LICENSE.txt",
     "README.md"
@@ -23,8 +23,8 @@ Gem::Specification.new do |s|
     "app/controllers/comments_controller.rb",
     "app/controllers/favorites_controller.rb",
     "app/controllers/ratings_controller.rb",
-    "app/controllers/reviews_controller.rb",
     "app/controllers/reputation_actions_controller.rb",
+    "app/controllers/reviews_controller.rb",
     "app/controllers/social_engine_controller.rb",
     "app/controllers/votes_controller.rb",
     "app/helpers/social_engine_helper.rb",
@@ -92,11 +92,11 @@ Gem::Specification.new do |s|
     "lib/social_engine/railties/tasks.rake",
     "social_engine.gemspec"
   ]
-  s.homepage = %q{http://github.com/johnmcaliley/social_engine}
-  s.licenses = [%q{MIT}]
-  s.require_paths = [%q{lib}]
-  s.rubygems_version = %q{1.8.5}
-  s.summary = %q{social_engine}
+  s.homepage = "http://github.com/johnmcaliley/social_engine"
+  s.licenses = ["MIT"]
+  s.require_paths = ["lib"]
+  s.rubygems_version = "1.8.10"
+  s.summary = "social_engine"
 
   if s.respond_to? :specification_version then
     s.specification_version = 3

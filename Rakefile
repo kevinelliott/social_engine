@@ -18,7 +18,7 @@ Jeweler::Tasks.new do |gem|
   gem.summary = %Q{social_engine}
   gem.description = %Q{social_engine}
   gem.email = "john@couponshack.com"
-  gem.authors = ["John McAliley"]
+  gem.authors = ["John McAliley", "Kevin Elliott"]
   gem.add_dependency "yettings"
   gem.add_dependency "inherited_resources"
   gem.add_dependency "haml"

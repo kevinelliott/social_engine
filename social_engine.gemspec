@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{social_engine}
-  s.version = "0.0.2"
+  s.version = "0.0.3"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = [%q{John McAliley}, %q{Kevin Elliott}]
@@ -23,6 +23,7 @@ Gem::Specification.new do |s|
     "app/controllers/comments_controller.rb",
     "app/controllers/favorites_controller.rb",
     "app/controllers/ratings_controller.rb",
+    "app/controllers/reviews_controller.rb",
     "app/controllers/reputation_actions_controller.rb",
     "app/controllers/social_engine_controller.rb",
     "app/controllers/votes_controller.rb",
@@ -60,7 +61,7 @@ Gem::Specification.new do |s|
     "app/views/reputation_actions/new.haml",
     "app/views/reviews/_form.haml",
     "app/views/reviews/_list.haml",
-    "app/views/reviews/_rating.haml",
+    "app/views/reviews/_review.haml",
     "app/views/reviews/new.haml",
     "app/views/third_party/_fb_friend_box.html.erb",
     "app/views/third_party/_fb_javascript_sdk.html.erb",

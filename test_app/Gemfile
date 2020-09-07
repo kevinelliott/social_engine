@@ -5,8 +5,8 @@ gem 'sqlite3-ruby', :require => 'sqlite3'
 gem 'social_engine', :path => File.expand_path("../../", __FILE__)
 
 group :test do
-  gem 'cucumber'
-  gem 'cucumber-rails'
+  gem 'cucumber', '>= 4.0.0'
+  gem 'cucumber-rails', '>= 0.4.0'
   gem 'capybara'
   gem 'database_cleaner'
   gem 'launchy'

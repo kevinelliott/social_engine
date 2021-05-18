@@ -6,8 +6,8 @@ gem 'social_engine', :path => File.expand_path("../../", __FILE__)
 
 group :test do
   gem 'cucumber'
-  gem 'cucumber-rails'
-  gem 'capybara'
+  gem 'cucumber-rails', '>= 0.4.0'
+  gem 'capybara', '>= 0.4.1.2'
   gem 'database_cleaner'
   gem 'launchy'
   gem "autotest-rails"
